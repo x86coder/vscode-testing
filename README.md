@@ -2,8 +2,8 @@
 Multiple test scripts
 
 
-## Python
+## Python 🐍
 - Selenium page title
 
-## Golang
+## Golang 🐭
 - Factorial function
