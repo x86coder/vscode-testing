@@ -1,10 +1,10 @@
 package main
 
-import (
+import(
 	"fmt"
-)
-
-func bubblesort() {
+	)
+	
+func bubblesort2() {
 	numbers := [...]int{5, 10, 3, 1, 4, 6, 2, 8}
 	fmt.Println("bubblesort v0.1 - by x86coder")
 	fmt.Println("numbers = ", numbers)
