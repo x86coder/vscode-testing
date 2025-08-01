@@ -1,14 +1,10 @@
 package main
 
-import(
-	"fmt"
-	)
-	
-func bubblesort2() {
-	numbers := [...]int{5, 10, 3, 1, 4, 6, 2, 8}
-	fmt.Println("bubblesort v0.1 - by x86coder")
-	fmt.Println("numbers = ", numbers)
+// How to create array of type: [8]int	
+//numbers := [...]int{5, 10, 3, 1, 4, 6, 2, 8}
 
+func bubblesort(numbers []float64) []float64{
+	
 	for i := 0; i < len(numbers); i++ {
 		for j := 0; j < len(numbers)-1; j++ {
 			if numbers[j] > numbers[j+1] {
@@ -18,6 +14,6 @@ func bubblesort2() {
 			}
 		}
 	}
-
-	fmt.Println("sorted numbers =", numbers)
+	
+	return numbers
 }
